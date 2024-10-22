@@ -35,8 +35,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Download this project
 ```
-$ git clone https://github.com/MelissaData/StreetRoute-Python3
-$ cd StreetRoute-Python3
+git clone https://github.com/MelissaData/StreetRoute-Python3
+cd StreetRoute-Python3
 ```
 
 ## Windows
@@ -79,15 +79,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ .\StreetRoutePython3.ps1
+	.\StreetRoutePython3.ps1
 	```
 
 - Command Line 
 
 	You can pass a start latitude, start longitude, end latitude, end longitude, and license string into `-startlat`, `-startlong`, `-endlat`, `-endlong`, and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ .\StreetRoutePython3.ps1 -startlat "33.637520" -startlong "-117.606920" -endlat "33.649870" -endlong "-117.582960"
-    $ .\StreetRoutePython3.ps1 -startlat "33.637520" -startlong "-117.606920" -endlat "33.649870" -endlong "-117.582960" -license "<your_license_string>"
+    .\StreetRoutePython3.ps1 -startlat "33.637520" -startlong "-117.606920" -endlat "33.649870" -endlong "-117.582960"
+    .\StreetRoutePython3.ps1 -startlat "33.637520" -startlong "-117.606920" -endlat "33.649870" -endlong "-117.582960" -license "<your_license_string>"
     ```
 	
 This is the expected output from a successful setup for interactive mode:
@@ -141,15 +141,15 @@ There are two modes:
 
 	The script will prompt the user for input(s), then use the provided input(s) to call the Cloud API. For example:
 	```
-	$ ./StreetRoutePython3.sh
+	./StreetRoutePython3.sh
 	```
 
 - Command Line 
 
 	You can pass a start latitude, start longitude, end latitude, end longitude, and license string into `-startlat`, `-startlong`, `-endlat`, `-endlong`, and `-license` parameters respectively to test the Cloud API. For example: 
 	```
-    $ ./StreetRoutePython3.sh --startlat "33.637520" --startlong "-117.606920" --endlat "33.649870" --endlong "-117.582960"
-    $ ./StreetRoutePython3.sh --startlat "33.637520" --startlong "-117.606920" --endlat "33.649870" --endlong "-117.582960" --license "<your_license_string>"
+    ./StreetRoutePython3.sh --startlat "33.637520" --startlong "-117.606920" --endlat "33.649870" --endlong "-117.582960"
+    ./StreetRoutePython3.sh --startlat "33.637520" --startlong "-117.606920" --endlat "33.649870" --endlong "-117.582960" --license "<your_license_string>"
     ```
 
 This is the expected output from a successful setup for interactive mode:
